@@ -9,7 +9,7 @@ load_dotenv()
 # Required credentials
 API_ID = int(getenv("API_ID", "20394525"))
 API_HASH = getenv("API_HASH", "6e84bd0f4362b85dab38ede07245b16d")
-BOT_TOKEN = getenv("BOT_TOKEN", "8208786618:AAEwTdwqB0wHsHcd23y4bAxIJUnexO9diYo")
+BOT_TOKEN = getenv("BOT_TOKEN", "8054422837:AAHISKWnOabYx1e0ySiHvXgsle4Zk5j3PCY")
 GROQ_API_KEY = getenv("GROQ_API_KEY", "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")
 GROQ_MODEL = getenv("GROQ_MODEL", "llama-3.1-8b-instant")
 
@@ -17,19 +17,19 @@ COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 
 # Bot and owner info
 OWNER_USERNAME = getenv("OWNER_USERNAME", "urstarkz")
-BOT_USERNAME = getenv("BOT_USERNAME", "SanyaxMusicBot")
+BOT_USERNAME = getenv("BOT_USERNAME", "AyakaXMusicBot")
 BOT_NAME = getenv("BOT_NAME", "Sanya")
 ASSUSERNAME = getenv("ASSUSERNAME", "SANYAassistant")
 MUST_JOIN = getenv("MUST_JOIN", "OnyxCoders")
 BASE_URL = "https://api.waifu.pics"
 
 # MongoDB
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://urstark:2k4s4A9O26tzxj7P@cluster0.jsssmx8.mongodb.net/?appName=Cluster0")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://onyxcoders:aH8lNcURcuDmkL7D@cluster0.1ojawuj.mongodb.net/?appName=Cluster0")
 
 # Limits and IDs
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 LOGGER_ID = int(getenv("LOGGER_ID", "-1003595485481"))
-OWNER_ID = int(getenv("OWNER_ID", "8249713982"))
+OWNER_ID = int(getenv("OWNER_ID", "5303251380"))
 POST_CHANNEL_ID = int(getenv("POST_CHANNEL_ID", "-1003650686177"))
 
 # Heroku
@@ -38,7 +38,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 DEEP_API = getenv("DEEP_API")
 
 # Git
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/urstark/sanyamusicx")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/onyxcoders/aykamusic")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
@@ -69,7 +69,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "5242880000"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 
 # Session strings
-STRING1 = getenv("STRING_SESSION", "BQGpxiYAUTO0RPmS4Jtd-ZbMR18E-0jzjX1tnqKn8UjQ8-38SeGM1j0Hx43VcwKg0A_3DmTHAYn-Y-0CXl9vMFQuNzgEVaOcH-Ht6a1heaAGBT60ri2rhMTT1WnpMKRhwzm7GU_bdHvhL8o3albwXr5FncWgry01r0vfSnSJXp36heBVZFHbKhb7lch_TLROeSvG_O45_teBs0N3EXt5GhRHKv2IW-kgSquuRD37cW-Krc1jXgTFqN_xXqyvQtnoI7B9j2vTJPbnqdA5jLWoFrX2GxVAZxfcngZm-dPVAzoj1yuU8qntksQx8ZdBX_Nw526rotAcAOIf6kg7ybKg8VNXE29iagAAAAHexHWmAA")
+STRING1 = getenv("STRING_SESSION", "BQFZuDsAXmp2FfypRgBzhrSclu1tW4jTM2O93lLWqwVucub69cW92pLSRXvjwuTWJwAOOF99OUvN5z0h3Y0OhphVo8uo0W3l-2XN1u_6bLgIWDqK5mwU6zArS2d3N3jidOnSU4oLZH2cYYPH7b5t0lA9ccC2hdq6ZezdUKmP9S99xvdC2EKD_xQcO1XwO-_bAYmfrKi8A_11rgOhzYqe74r-dFkC-qtxSHzQ1dcZwLxAgzdDewi_G_PuJ7hsflgi2cXFNkdlG_01Wh_H5rQt2KU7BSn0tpWblyUI6FKiYbXhNqX2qlUeUl6ndS2sFYcOo477KT60XI9R-T7QOaC7YgXzbX9VrgAAAAHdF9OCAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
