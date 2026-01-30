@@ -16,11 +16,11 @@ GROQ_MODEL = getenv("GROQ_MODEL", "llama-3.1-8b-instant")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 
 # Bot and owner info
-OWNER_USERNAME = getenv("OWNER_USERNAME")
-BOT_USERNAME = getenv("BOT_USERNAME")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "urstarkz")
+BOT_USERNAME = getenv("BOT_USERNAME", "SanyaxMusicBot")
 BOT_NAME = getenv("BOT_NAME", "Sanya")
 ASSUSERNAME = getenv("ASSUSERNAME", "SANYAassistant")
-MUST_JOIN = getenv("MUST_JOIN", "urstarkz")
+MUST_JOIN = getenv("MUST_JOIN", "OnyxCoders")
 BASE_URL = "https://api.waifu.pics"
 
 # MongoDB
@@ -28,9 +28,9 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://urstark:2k4s4A9O26tzxj7P@cl
 
 # Limits and IDs
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
-LOGGER_ID = int(getenv("LOGGER_ID", "-1003820764714"))
-OWNER_ID = int(getenv("OWNER_ID", "8422195674"))
-POST_CHANNEL_ID = int(getenv("POST_CHANNEL_ID", "-1003192209705"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1003595485481"))
+OWNER_ID = int(getenv("OWNER_ID", "8249713982"))
+POST_CHANNEL_ID = int(getenv("POST_CHANNEL_ID", "-1003650686177"))
 
 # Heroku
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
@@ -43,8 +43,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Support
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SanyaxBots")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/SanyaxSupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/OnyxCoders")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+R2Ux9jRrlNo2ZGI9")
 
 # Mini App
 MINI_APP_URL = getenv("MINI_APP_URL", "https://chorusx.vercel.app")
@@ -69,7 +69,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "5242880000"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 
 # Session strings
-STRING1 = getenv("STRING_SESSION", "BQGpxiYAUDdslEazIz7FbqxRtz2Lf00mX-jeP9ZiKdM3LEfR6UVBYBJIRPR7nCIXYWuaUn6L_D79G3gpH0nPoLxgnYKU0-XS4ITGd4LfY4kRqdQhiWIc8Is8YwVW2nGJMF-27Rq2jAHH54becQwG7v3MSJQxFPd3ojoaqxZHJxdwdiMshx3MLJ-tXnkpsieoBoVmkCkYcp6JAkL_GhBkdsOKv4vyljDyk6PgWMWVUE0z2T6LiMM_aXplb3WDMH3F9i198ctHyKAOZZ-SiYcFv1cX6U8Q3fS9Q8zFZjh_jBXhW-v_5DrCcOn7Xo1v_gVtpTy_XeMlCwhOSuwGA94SlkFCPXPZIgAAAAH5cGD6AA")
+STRING1 = getenv("STRING_SESSION", "BQGpxiYAUTO0RPmS4Jtd-ZbMR18E-0jzjX1tnqKn8UjQ8-38SeGM1j0Hx43VcwKg0A_3DmTHAYn-Y-0CXl9vMFQuNzgEVaOcH-Ht6a1heaAGBT60ri2rhMTT1WnpMKRhwzm7GU_bdHvhL8o3albwXr5FncWgry01r0vfSnSJXp36heBVZFHbKhb7lch_TLROeSvG_O45_teBs0N3EXt5GhRHKv2IW-kgSquuRD37cW-Krc1jXgTFqN_xXqyvQtnoI7B9j2vTJPbnqdA5jLWoFrX2GxVAZxfcngZm-dPVAzoj1yuU8qntksQx8ZdBX_Nw526rotAcAOIf6kg7ybKg8VNXE29iagAAAAHexHWmAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
